@@ -25,7 +25,7 @@ w=np.zeros(8)
 b=0
 learning_rate=0.1
 
-for epochs in range(10):
+for epochs in range(0):
    for i in range(len(X)):
        inputs=X[i]
        target=Y[i]

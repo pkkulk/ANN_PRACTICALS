@@ -81,7 +81,7 @@ for epoch in range(epochs):
     b2 -= learning_rate * db2
     W1 -= learning_rate * dW1
     b1 -= learning_rate * db1
-
+       
 # PREDICT FUNCTION
 def predict(X):
     hidden_output = relu(np.dot(X, W1) + b1)
